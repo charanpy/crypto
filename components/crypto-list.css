@@ -1,0 +1,16 @@
+ul,
+li {
+  list-style: none;
+}
+
+li {
+  line-height: 2;
+}
+
+.cryptoTitle {
+  padding: 1rem;
+  outline: none;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+}

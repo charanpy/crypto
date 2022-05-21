@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+  font-size: 62.5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.container {
+  padding: 2rem;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+.cryptoList {
+  width: 30%;
+}
+
+.cryptoDescription {
+  width: 70%;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
